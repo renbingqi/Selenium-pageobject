@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="88fc77cd-6076-4131-947c-227ccc89bf7b" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Base/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PageObject/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TestCase/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598926635311</updated>
       <workItem from="1598926636557" duration="425000" />
+      <workItem from="1598927596579" duration="93000" />
     </task>
     <servers />
   </component>
