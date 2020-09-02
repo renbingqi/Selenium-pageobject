@@ -1,0 +1,8 @@
+{
+  "language": "(By.XPATH,'/html/body/section/main/div/div/div')",
+  "Chinese": "(By.XPATH,'//*[@id=\"dropdown-menu-3910\"]/li[1]')",
+  "English": "(By.XPATH,'//*[@id=\"dropdown-menu-3910\"]/li[2]')",
+  "username": "(By.XPATH,'/html/body/section/main/form/div[1]/div/div/input')",
+  "password": "(By.XPATH,'/html/body/section/main/form/div[2]/div/div/input')",
+  "submit": "(By.XPATH,'/html/body/section/main/form/div[3]/div/button')"
+}

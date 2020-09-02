@@ -4,12 +4,14 @@ Author:Rex
 Time:2020/9/1 22:28
 Desc:基类封装页面对象中需要用到的基础方法
 """
+from selenium.webdriver.common.by import By
+
 from Utils.driver.driver import Driver
 class BaseObject(Driver):
-    def __init__(self):
+    def __init__(self,driver):
         # 实例化一个driver
-        driver=Driver()
-        self.driver=driver.main()
+        self.driver=driver
+
 
     def open_brower(self,url):
         """
@@ -18,6 +20,7 @@ class BaseObject(Driver):
         :return:
         """
         self.driver.get(url=url)
+        return self.driver
 
     #查找元素
     def find_ele(self,*ele):
@@ -26,7 +29,11 @@ class BaseObject(Driver):
         :param ele:传入元素定位方式
         :return:元素对象
         """
-        return self.driver.find_element(*ele)
+        try:
+            return self.driver.find_element(*ele)
+
+        except:
+            print("元素定位错误")
 
     #点击元素
     def click_ele(self,*ele):
@@ -51,11 +58,15 @@ class BaseObject(Driver):
     def implicity_wait(self):
         self.driver.implicitly_wait(10)
 
+    #浏览器前进
+    def forword(self):
+        self.driver.forward()
 
 
 
 
 
-runner=BaseObject()
-runner.open_brower()
+
+# runner=BaseObject()
+# runner.open_brower()
 
