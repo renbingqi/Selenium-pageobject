@@ -9,11 +9,18 @@ Desc:读取driver json文件
 import json
 
 from selenium import webdriver
+import unittest
 
-class Driver(object):
+class Driver(unittest.TestCase):
+    def setUp(self):
+        self.driver_name=self.get_driver_name()
+        self.browser=self.get_driver(self.driver_name)
+        self.browser.maximize_window()
+    #从本地配置文件中读取测试用浏览器名字
     def get_driver_name(self):
         jsonfile = open('G:\本地仓库\TemperatureProject-PO\Config\driver.json', 'r')
-        driver_name = json.load(jsonfile)['driver']
+        driver_name = json.load(jsonfile)["browser"]['driver']
+
         return driver_name
 
     def get_driver(self,driver_name):
@@ -23,13 +30,12 @@ class Driver(object):
         else:
             brower=webdriver.Firefox()
             return brower
+    # def test1(self):
+    #     print("1")
 
-    def main(self):
-        driver_name=self.get_driver_name()
-        brower=self.get_driver(driver_name)
-        # brower.get(url="https://www.baidu.com")
-        return brower
+
+    def tearDown(self):
+        self.browser.quit()
 
 if __name__=="__main__":
-    runner=Driver()
-    runner.main()
+    unittest.main()
