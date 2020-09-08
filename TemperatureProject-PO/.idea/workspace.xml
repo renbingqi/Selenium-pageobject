@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="88fc77cd-6076-4131-947c-227ccc89bf7b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/driver.json" beforeDir="false" afterPath="$PROJECT_DIR$/Config/driver.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Base/basepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Config/data.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log/mylog.py" beforeDir="false" afterPath="$PROJECT_DIR$/Log/mylog.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestCase/testLogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/testLogin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utils/driver/driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/driver/driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/get_yaml_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/get_yaml_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="G:/python_project/自动化项目" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -52,6 +55,50 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.pytest in testLogin.py">
+    <configuration name="get_yaml_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TemperatureProject-PO" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Utils/get_yaml_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mylog" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TemperatureProject-PO" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Log" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Log/mylog.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TemperatureProject-PO" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,21 +121,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for testLogin.TestLogin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="TemperatureProject-PO" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testLogin.TestLogin&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for testLogin.TestLogin.test_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="TemperatureProject-PO" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,21 +134,6 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;testLogin.TestLogin.test_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in driver.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="TemperatureProject-PO" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Utils/driver" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Utils/driver/driver.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in testLogin.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -139,9 +156,9 @@
       <list>
         <item itemvalue="Python tests.pytest in testLogin.py" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python tests.Unittests in driver.py" />
+        <item itemvalue="Python.mylog" />
+        <item itemvalue="Python.get_yaml_data" />
         <item itemvalue="Python tests.Unittests for testLogin.TestLogin.test_login" />
-        <item itemvalue="Python tests.Unittests for testLogin.TestLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +179,10 @@
       <workItem from="1599058747390" duration="890000" />
       <workItem from="1599059967718" duration="1675000" />
       <workItem from="1599145336308" duration="3864000" />
+      <workItem from="1599318579099" duration="280000" />
+      <workItem from="1599325235175" duration="2259000" />
+      <workItem from="1599484481217" duration="8311000" />
+      <workItem from="1599571787450" duration="2635000" />
     </task>
     <servers />
   </component>
@@ -183,13 +204,15 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TemperatureProject_PO$driver.coverage" NAME="driver Coverage Results" MODIFIED="1598973274771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utils/driver" />
+    <SUITE FILE_PATH="coverage/TemperatureProject_PO$mylog.coverage" NAME="mylog Coverage Results" MODIFIED="1599573139717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Log" />
+    <SUITE FILE_PATH="coverage/TemperatureProject_PO$Unittests_for_testLogin_TestLogin.coverage" NAME="Unittests for testLogin.TestLogin Coverage Results" MODIFIED="1599146390662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/TemperatureProject_PO$get_yaml_data.coverage" NAME="get_yaml_data Coverage Results" MODIFIED="1599490118489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utils" />
+    <SUITE FILE_PATH="coverage/TemperatureProject_PO$Unittests_for_testLogin_TestLogin_test_login.coverage" NAME="Unittests for testLogin.TestLogin.test_login Coverage Results" MODIFIED="1599325549323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/TemperatureProject_PO$Unittests_for_driver_Driver.coverage" NAME="Unittests for driver.Driver Coverage Results" MODIFIED="1599145855297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utils/driver" />
     <SUITE FILE_PATH="coverage/TemperatureProject_PO$basepage.coverage" NAME="basepage Coverage Results" MODIFIED="1598973385784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Base" />
-    <SUITE FILE_PATH="coverage/TemperatureProject_PO$Unittests_for_testLogin_TestLogin.coverage" NAME="Unittests for testLogin.TestLogin Coverage Results" MODIFIED="1599146390662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/TemperatureProject_PO$get_ele.coverage" NAME="get_ele Coverage Results" MODIFIED="1599057645661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utils" />
-    <SUITE FILE_PATH="coverage/TemperatureProject_PO$test.coverage" NAME="test Coverage Results" MODIFIED="1599149079538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TemperatureProject_PO$pytest_in_testLogin_py.coverage" NAME="pytest in testLogin.py Coverage Results" MODIFIED="1599149175366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
-    <SUITE FILE_PATH="coverage/TemperatureProject_PO$Unittests_for_testLogin_TestLogin_test_login.coverage" NAME="Unittests for testLogin.TestLogin.test_login Coverage Results" MODIFIED="1599146444398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/TemperatureProject_PO$test.coverage" NAME="test Coverage Results" MODIFIED="1599574050661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TemperatureProject_PO$pytest_in_testLogin_py.coverage" NAME="pytest in testLogin.py Coverage Results" MODIFIED="1599574391967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/TemperatureProject_PO$Baidu.coverage" NAME="Baidu Coverage Results" MODIFIED="1598972900990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PageObject" />
     <SUITE FILE_PATH="coverage/TemperatureProject_PO$LoginPage.coverage" NAME="LoginPage Coverage Results" MODIFIED="1599058949707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PageObject" />
     <SUITE FILE_PATH="coverage/TemperatureProject_PO$Unittests_in_driver_py.coverage" NAME="Unittests in driver.py Coverage Results" MODIFIED="1599147485306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utils/driver" />

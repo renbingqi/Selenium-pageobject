@@ -10,12 +10,14 @@ from PageObject.LoginPage import LoginPage
 import unittest
 from Utils.driver.driver import Driver
 from ddt import ddt,data,unpack
-
+from Utils.get_yaml_data import GetData
 
 
 @ddt
 class TestLogin(Driver):
-    @data(*[('admin','admin'), ('vivalnk','vivalnk')])
+    get_login_data=GetData()
+    # print(get_login_data.get_login_data())
+    @data(*get_login_data.get_login_data())
     @unpack
     def test_login(self,username,password):
         """
@@ -31,6 +33,8 @@ class TestLogin(Driver):
         self.loginpage.login(username=username,password=password)
         #登录成功跳转到Home页面，断言登录是否成功
         self.assertEqual(self.browser.title,"Home")
+        self.loginpage.get_sceenshot()
+
 
 
 if __name__=="__main__":

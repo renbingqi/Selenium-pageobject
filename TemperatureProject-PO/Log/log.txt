@@ -1,0 +1,11 @@
+Tue 08 Sep 2020 21:52:19 INFO mylog.py 22 1656 abc
+Tue 08 Sep 2020 21:54:42 INFO basepage.py 41 9884 查找元素成功
+Tue 08 Sep 2020 21:54:42 INFO basepage.py 41 9884 查找元素成功
+Tue 08 Sep 2020 21:54:43 INFO basepage.py 41 9884 查找元素成功
+Tue 08 Sep 2020 21:54:55 INFO basepage.py 41 9884 查找元素成功
+Tue 08 Sep 2020 21:54:55 INFO basepage.py 41 9884 查找元素成功
+Tue 08 Sep 2020 21:54:55 INFO basepage.py 41 9884 查找元素成功
+Tue 08 Sep 2020 21:56:26 INFO basepage.py 45 11024 ('xpath', '/html/body/section/main/form/div[3]/div/')元素定位错误
+Tue 08 Sep 2020 21:56:26 INFO basepage.py 58 11024 ('xpath', '/html/body/section/main/form/div[3]/div/')点击失败
+Tue 08 Sep 2020 21:56:36 INFO basepage.py 45 11024 ('xpath', '/html/body/section/main/form/div[3]/div/')元素定位错误
+Tue 08 Sep 2020 21:56:36 INFO basepage.py 58 11024 ('xpath', '/html/body/section/main/form/div[3]/div/')点击失败

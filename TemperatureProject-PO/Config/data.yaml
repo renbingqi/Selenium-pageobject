@@ -1,0 +1,9 @@
+#配置浏览器
+"driver": "Chrome"
+...
+---
+#配置登录用户名密码[{'username': 'admin', 'password': 'admin'}, {'username': 'vivalnk', 'password': 'vivalnk'}]
+- "username": "admin"
+  "password": "admin"
+- "username": "vivalnk"
+  "password": "vivalnk"
